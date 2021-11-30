@@ -1,0 +1,33 @@
+p {
+  @include buttons($color: red);
+}
+
+h2 {
+  @include buttons($color: green);
+}
+
+.cards {
+  @include cards($color: green, $background-color: blue);
+}
+
+.btn {
+  @extend %btns;
+}
+
+.btn-2 {
+  @extend %btns;
+  color: darkblue;
+  width: 100%;
+
+  h3 {
+    color: red;
+
+    &:hover {
+      color: darkblue;
+    }
+  }
+
+  &:hover h3 {
+    color: red;
+  }
+}

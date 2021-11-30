@@ -1,0 +1,53 @@
+.btn,
+.btn-2 {
+  color: white;
+  background-color: green;
+  padding: 30px 50px;
+}
+
+p {
+  color: red;
+  border: 1px solid red;
+  font-size: 15px;
+}
+
+h2 {
+  color: green;
+  border: 1px solid green;
+  font-size: 15px;
+}
+
+.cards {
+  color: green;
+  border: 1px solid green;
+  background-color: blue;
+}
+
+.btn-2 {
+  color: darkblue;
+  width: 100%;
+}
+
+.btn-2 h3 {
+  color: red;
+}
+
+.btn-2 h3:hover {
+  color: darkblue;
+}
+
+.btn-2:hover h3 {
+  color: red;
+}
+
+.cards {
+  margin: 20px 30px;
+}
+
+.cards__img--top {
+  margin: 20px;
+}
+
+body {
+  font-size: 40px;
+}

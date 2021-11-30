@@ -1,0 +1,5 @@
+@mixin cards($color: black, $background-color: red) {
+  color: $color;
+  border: 1px solid $color;
+  background-color: $background-color;
+}

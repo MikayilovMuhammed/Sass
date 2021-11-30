@@ -1,0 +1,8 @@
+@import "./partials/variables/index";
+@import "./partials/mixins/index";
+@import "./partials/extends/index";
+@import "./partials/pages/home/index";
+
+body {
+  font-size: $font-size-text_1;
+}
